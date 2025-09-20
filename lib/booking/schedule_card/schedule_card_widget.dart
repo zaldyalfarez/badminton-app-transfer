@@ -105,7 +105,7 @@ class _ScheduleCardWidgetState extends State<ScheduleCardWidget> {
                     width: MediaQuery.sizeOf(context).width * 1.0,
                     height: 100.0,
                     decoration: BoxDecoration(
-                      color: FlutterFlowTheme.of(context).cardQuarternary,
+                      color: functions.getRandomCardColor(),
                       borderRadius: BorderRadius.circular(10.0),
                     ),
                     child: Padding(

@@ -65,6 +65,7 @@ class _BookingDetailWidgetState extends State<BookingDetailWidget> {
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primary,
+        resizeToAvoidBottomInset: true,
         body: SafeArea(
           top: true,
           child: Column(

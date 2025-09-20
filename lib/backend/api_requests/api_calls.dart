@@ -578,7 +578,7 @@ class GetNotifikasiCall {
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'Get Notifikasi',
-      apiUrl: 'https://api-badminton.arsitek-kode.com/api/user/notif',
+      apiUrl: 'https://api-badminton.arsitek-kode.com/api/notif',
       callType: ApiCallType.GET,
       headers: {
         'Authorization': 'Bearer ${jwt}',
